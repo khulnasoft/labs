@@ -1,0 +1,67 @@
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+__pycache__
+*.pyc
+*.pyo
+
+# Environment
+.venv
+venv
+env
+conda
+
+# Model files (large binary)
+*.pth
+*.safetensors
+*.bin
+*.pt
+*.h5
+*.hdf5
+*.onnx
+
+# Data
+*.csv
+*.json
+*.parquet
+*.arrow
+
+# Output
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Output/Generated
+/output/
+/_output/
+
+# Weights & Biases
+.wandb/
+
+# TensorBoard
+tensorboard/
+*.event.out.tfevents.*
+
+# Docker
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Terraform (from remote, but not used here)
+.terraform/
+*.tfstate
+*.tfvars
+
+# Excel temporary
+*.xlsx~
